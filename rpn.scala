@@ -1,6 +1,3 @@
-import scala.collection.JavaConverters._
-import scala.collection.JavaConversions._
-
 object rpn {
     def calculate(expression: String): Double = {
         def calc(stack: List[Double], token: String): List[Double] = {
