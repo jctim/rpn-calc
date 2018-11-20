@@ -1,4 +1,5 @@
-# RPN implementations in different language
+# [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation)  Calculator
+Implemented in different languages
 
 ## Purposes of this repository
 - Learn basics of functional programming:
