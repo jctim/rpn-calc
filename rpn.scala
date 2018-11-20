@@ -12,7 +12,7 @@ object rpn {
         }
 
         val tokens = expression.split(" ").toList
-        val res = tokens.foldLeft(List[Double]()) { case (stack, t) => calc(stack, t)}
+        val res = tokens.foldLeft(List[Double]())(calc)
         return res.head
         
     }
